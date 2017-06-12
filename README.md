@@ -1,3 +1,7 @@
+# ROS Driver for Kinova Mico Arm
+* `roslaunch kinova_bringup kinova_robotType:=m1n6s200`
+* `roslaunch m1n6s200_moveit_config m1n6s200_demo.launch`
+
 # IMPORTANT
 
 kinova-driver release 1.2.0.
