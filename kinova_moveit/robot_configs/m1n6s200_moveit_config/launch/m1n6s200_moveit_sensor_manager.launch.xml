@@ -1,0 +1,7 @@
+<launch>
+<rosparam command="load" file="$(find m1n6s200_moveit_config)/config/m1n6s200_sensor_kinect.yaml" />
+<param name="octomap_frame" type="string" value="kinect2_rgb_optical_frame" />
+<param name="octomap_resolution" type="double" value="0.025" />
+<param name="max_range" type="double" value="2.0" />
+
+</launch>
