@@ -8,7 +8,6 @@
 *.o
 
 # Compiled Dynamic libraries
-*.so
 *.dylib
 
 # Compiled Static libraries
@@ -19,7 +18,6 @@
 #Stuff built by rosmake
 */build
 */bin
-*/lib/*.so
 */msg_gen
 */srv_gen
 */catkin
